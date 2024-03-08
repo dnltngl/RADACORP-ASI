@@ -382,6 +382,10 @@ input, textarea {
   box-sizing: border-box;
 }
 
+span{
+  color: red;
+}
+
 /* Footer CSS */
 footer{
   background: #4070f4;
