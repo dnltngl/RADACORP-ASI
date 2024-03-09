@@ -196,8 +196,11 @@
             <label for="email">Email:</label>
             <input type="email" id="email" name="email" required  placeholder="Your Email Address" oninvalid="this.setCustomValidity('Please enter Your Email')" oninput="this.setCustomValidity('')"><br />
         
+            <label for="number">Phone Number:</label>
+            <input type="number" id="number" name="number" required  placeholder="+63" oninvalid="this.setCustomValidity('Please enter Your Number')" oninput="this.setCustomValidity('')"><br />
+
             <label for="subject">Subject:</label>
-            <input type="text" id="subject" name="subject" required  placeholder="Project Title/Description" oninvalid="this.setCustomValidity('Please enter Your Subject')" oninput="this.setCustomValidity('')"><br />
+            <input type="subject" id="subject" name="subject" required  placeholder="Message" oninvalid="this.setCustomValidity('Please enter Your subject')" oninput="this.setCustomValidity('')"><br />
         
             <label for="message">Message:</label>
             <textarea id="message" name="message" rows="4" required placeholder="Message" oninvalid="this.setCustomValidity('Please enter Your Message')" oninput="this.setCustomValidity('')"></textarea>
@@ -207,7 +210,7 @@
           </form>
 
           <script>
-            const scriptURL = 'https://script.google.com/macros/s/AKfycbxnv5xOKVX2y5L_kgZ48AJBgYEdbLu4zWcvYg08KEOT-MmO6iKHgmNIKxMSnp8q9MSP/exec'
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbzXOaN8oLGd0F5gszpz_3f0NOtowbsDKO4H7JuvvJGLoXkMXUJE_ItNnCOd0YIXrh6f/exec'
             const form = document.forms['submit-to-google-sheet']
             const msg = document.getElementById('msg')
           
