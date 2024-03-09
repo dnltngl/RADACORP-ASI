@@ -189,7 +189,22 @@
   
             </div>
           </div>
-        <form name="submit-to-google-sheet">
+
+          <form method="POST"
+            action="https://forms.gle/R4LypN4FPNiyibPv8">
+            <input class="form-control rounded-0 mt-3 border-secondary" name="Email" type="email" placeholder="Email" required />
+            <input class="form-control rounded-0 mt-3 border-secondary" name="Name" type="text" placeholder="Name" required />
+            <input class="form-control rounded-0 mt-3 border-secondary" name="Phone" type="tel" placeholder="Phone Number" required />
+            <textarea class="form-control rounded-0 mt-3 border-secondary" name="Message" placeholder="Message"></textarea>
+            <div class="buttons d-flex">
+              <button class="btn btn-dark rounded-0 mt-3" type="submit">Send Message</button>
+            </div>
+        </div>
+        </form>
+
+
+
+        <!-- <form name="submit-to-google-sheet" action="https://forms.gle/R4LypN4FPNiyibPv8" target="_blank">
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" required placeholder="Your Name" oninvalid="this.setCustomValidity('Please enter Your Name')" oninput="this.setCustomValidity('')" ><br />
         
@@ -207,10 +222,10 @@
         
             <button type="submit" required >Send Message</button>
             <span id="msg"></span>
-          </form>
+          </form> -->
 
-          <script>
-            const scriptURL = 'https://script.google.com/macros/s/AKfycbzXOaN8oLGd0F5gszpz_3f0NOtowbsDKO4H7JuvvJGLoXkMXUJE_ItNnCOd0YIXrh6f/exec'
+          <!-- <script>
+            
             const form = document.forms['submit-to-google-sheet']
             const msg = document.getElementById('msg')
           
@@ -229,7 +244,7 @@
                 } )
                 .catch(error => console.error('Error!', error.message))
             })
-          </script>
+          </script> -->
         
       </div>
     </section>

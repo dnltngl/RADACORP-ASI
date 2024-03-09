@@ -43,3 +43,33 @@ for (var i = 0; i < navLinks.length; i++) {
     menuBtn.style.pointerEvents = "auto";
   });
 }
+
+
+// document.getElementById("contact-form").addEventListener("submit", function(event) {
+//         event.preventDefault(); // Prevent default form submission
+        
+//         // Get form data
+//         var formData = new FormData(this);
+//         // Convert formData to URL encoded string
+//         var urlEncodedData = new URLSearchParams(formData).toString();
+//         // URL of your Google Form
+//         var googleFormURL = ""https://forms.gle/R4LypN4FPNiyibPv8; // Replace with your actual Google Form URL
+        
+//         // Submit form data to Google Form
+//         fetch(googleFormURL, {
+//             method: 'POST',
+//             mode: 'no-cors', // CORS policy for Google Forms
+//             headers: {
+//                 'Content-Type': 'application/x-www-form-urlencoded',
+//             },
+//             body: urlEncodedData
+//         })
+//         .then(response => {
+//             // Optionally, you can handle the response here (e.g., display a success message)
+//             console.log("Form submitted successfully");
+//         })
+//         .catch(error => {
+//             // Handle errors here
+//             console.error("Error submitting form:", error);
+//         });
+//     });
