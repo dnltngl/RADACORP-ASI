@@ -84,6 +84,9 @@ nav.sticky .menu a:hover{
 nav.sticky .media-icons a{
   color: #FFF;
 }
+.button a{
+  color: inherit;
+}
 
 /* Side Navigation Menu Button CSS */
 nav .menu-btn,
