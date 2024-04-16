@@ -1,3 +1,4 @@
+
 // Sticky Navigation Menu JS Code
 let nav = document.querySelector("nav");
 let scrollBtn = document.querySelector(".scroll-button a");
@@ -43,6 +44,20 @@ for (var i = 0; i < navLinks.length; i++) {
     menuBtn.style.pointerEvents = "auto";
   });
 }
+
+var name = document.getElementById('name');
+var email = document.getElementById('email');
+var Date_of_Subscription = document.getElementById('Date_of_Subscription');
+var End_of_Subscription = document.getElementById('End_of_Subscription');
+console.log(name, email);
+
+
+
+// emailjs.send("service_zhf2ybn","template_rrddjj4",{
+//   from_name: "albrto",
+//   to_name: "daniel",
+//   message: "testo",
+//   });
 
 
 // document.getElementById("contact-form").addEventListener("submit", function(event) {
